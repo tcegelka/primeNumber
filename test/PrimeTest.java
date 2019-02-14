@@ -27,6 +27,16 @@ class PrimeTest {
     }
 
     @Test
+    void fiveIsPrime() {
+        assertTrue(tester.isPrime(5));
+    }
+
+    @Test
+    void twentyFiveIsNotPrime() {
+        assertFalse(tester.isPrime(25));
+    }
+
+    @Test
     void negativeIsNotPrime() {
         assertFalse(tester.isPrime(-2));
     }
@@ -38,6 +48,6 @@ class PrimeTest {
 
     @Test
     void largeNotPrimeNumber() {
-        assertTrue(tester.isPrime(7900));
+        assertFalse(tester.isPrime(7900));
     }
 }
