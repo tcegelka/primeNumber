@@ -5,6 +5,13 @@ public class Prime implements PrimeNumberGenerator {
     @Override
     public List<Integer> generate(int startingValue, int endingValue) {
         ArrayList<Integer> arrayList = new ArrayList<>();
+
+        for(int i = Math.min(startingValue, endingValue); i <= Math.max(startingValue, endingValue); i++) {
+            if (isPrime(i)) {
+                arrayList.add(i);
+            }
+        }
+
         return arrayList;
     }
 
