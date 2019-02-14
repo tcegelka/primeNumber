@@ -32,7 +32,12 @@ class PrimeTest {
     }
 
     @Test
-    void largerNumberIsPrime() {
+    void largePrimeNumber() {
         assertTrue(tester.isPrime(7901));
+    }
+
+    @Test
+    void largeNotPrimeNumber() {
+        assertTrue(tester.isPrime(7900));
     }
 }

@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/PrimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="680">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -45,6 +45,8 @@
                 <element signature="e#627#628#0" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
                 <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +84,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -97,6 +102,7 @@
     <option name="width" value="1934" />
     <option name="height" value="2127" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -137,10 +143,11 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550108313822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550114319650" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,6 +211,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1934" height="2127" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17929563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -267,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/PrimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="680">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -283,6 +291,8 @@
             <element signature="e#627#628#0" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
             <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
           </folding>
         </state>
       </provider>
