@@ -1,7 +1,8 @@
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class PrimeTest {
     private Prime tester = new Prime();
@@ -49,5 +50,63 @@ class PrimeTest {
     @Test
     void largeNotPrimeNumber() {
         assertFalse(tester.isPrime(7900));
+    }
+
+    @Test
+    void negativeRangeReturnsEmptyList() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+
+        assertEquals(tester.generate(-10, -1), expectedList);
+    }
+
+    @Test
+    void zeroThroughTen() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+        expectedList.add(2);
+        expectedList.add(3);
+        expectedList.add(5);
+        expectedList.add(7);
+
+        assertEquals(tester.generate(0, 10), expectedList);
+    }
+
+    @Test
+    void tenThroughZero() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+        expectedList.add(2);
+        expectedList.add(3);
+        expectedList.add(5);
+        expectedList.add(7);
+
+        assertEquals(tester.generate(10, 0), expectedList);
+    }
+
+    @Test
+    void test7900Through7920() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+        expectedList.add(7901);
+        expectedList.add(7907);
+        expectedList.add(7919);
+
+        assertEquals(tester.generate(7900, 7920), expectedList);
+    }
+
+    @Test
+    void testInclusiveEndValues() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+        expectedList.add(2);
+        expectedList.add(3);
+        expectedList.add(5);
+        expectedList.add(7);
+
+        assertEquals(tester.generate(2, 7), expectedList);
+    }
+
+    @Test
+    void testSingleValue() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+        expectedList.add(11);
+
+        assertEquals(tester.generate(11, 11), expectedList);
     }
 }

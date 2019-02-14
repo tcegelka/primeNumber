@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Prime implements PrimeNumberGenerator {
     @Override
     public List<Integer> generate(int startingValue, int endingValue) {
-        return null;
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        return arrayList;
     }
 
     @Override
