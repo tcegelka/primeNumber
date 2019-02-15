@@ -48,8 +48,13 @@ class PrimeTest {
     }
 
     @Test
-    void largeNotPrimeNumber() {
+    void largeEvenNotPrimeNumber() {
         assertFalse(tester.isPrime(7900));
+    }
+
+    @Test
+    void largeNotPrimeNumber() {
+        assertFalse(tester.isPrime(7909));
     }
 
     @Test
@@ -103,10 +108,17 @@ class PrimeTest {
     }
 
     @Test
-    void testSingleValue() {
+    void testSingleValuePrime() {
         ArrayList<Integer> expectedList = new ArrayList<>();
         expectedList.add(11);
 
         assertEquals(tester.generate(11, 11), expectedList);
+    }
+
+    @Test
+    void testSingleValueNotPrime() {
+        ArrayList<Integer> expectedList = new ArrayList<>();
+
+        assertEquals(tester.generate(12, 12), expectedList);
     }
 }
